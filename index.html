@@ -19,36 +19,41 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand ml-5" href="#"><img src="img/logo.png" alt="Awele Logo" width="120" /></a>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link text-white px-4 pt-3" href="#"><i class="fa fa-home"></i> Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white px-4 pt-3" href="#"><i class="fa fa-bars"></i> Collection</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white px-4 pt-3" href="#"><i class="fa fa-cart-plus"></i> Purchase List</a>
-            </li>
-            <li class="nav-link text-white px-4">
-                <button type="button" class="btn btn-danger">POST AN AD</button>
-            </li>
-        </ul>
-        <div class="nav-right ml-auto mr-5">
+    <nav>
+        <div class="nav-left mt-2">
+<img src="img/logo.png" alt="">
+        </div>
+        <div class="nav-center mt-3">
+            <ul class="">
+                <li class="">
+                    <a class="nav-link text-white px-4 pt-3" href="#"><i class="fa fa-home"></i> Home</a>
+                </li>
+                <li class="">
+                    <a class="nav-link text-white px-4 pt-3" href="#"><i class="fa fa-bars"></i> Collection</a>
+                </li>
+                <li class="">
+                    <a class="nav-link text-white px-4 pt-3" href="#"><i class="fa fa-cart-plus"></i> Purchase List</a>
+                </li>
+                <li class="nav-link text-white px-4 py-3">
+                    <button type="button" class="btn btn-danger nav-button">POST AN AD</button>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right ml-auto mt-4">
             <i class="fa fa-envelope text-white px-2"></i>
             <span class="text-white px-4">Doyinsola Adeyemi <i class="fa fa-user-circle"></i></span>
         </div>
     </nav>
+    
     <main>
-
+<!-- Cover Banner -->
         <div class="cover-banner">
             <div class="container">
                 <div class="logo-cover text-center">
                     <img src="img/logo-name.png" alt="Awele" />
-                    <p class="text-white">
-                        The one-stop store for all your shopping needs
-                    </p>
+                    <h1 class="text-white">
+                        Your one-stop store for all your shopping needs
+                    </h1>
                 </div>
                 <div class="dropdown text-center">
                     <button class="btn btn-secondary bg-white text-secondary dropdown-toggle" type="button"
@@ -58,8 +63,8 @@
                     <button class="btn btn-secondary bg-white text-secondary">
                         What do you want to buy today?
                     </button>
-                    <button class="btn btn-secondary bg-white text-secondary">Nigeria</button>
-                    <button class="btn btn-secondary search">Search</button>
+                    <button class="btn btn-secondary bg-white text-secondary">Women</button>
+                    <button class="btn btn-secondary search"> <a href="result.html"></a> Search</button>
                 </div>
             </div>
         </div>
@@ -94,113 +99,133 @@
 
         <!-- New Arrivals -->
         <section class="new-arrivals container my-5">
-            <div class="section-header">
+            <div class="section-header d-flex">
                 <h4 class="text-secondary mb-4  ml-3">New Arrivals</h4>
+                <p class="font-weight-bold view-all ml-auto mr-4"><a class="text-danger " href="#">View Products <i class="fa fa-chevron-right"></i></a></p>
             </div>
-            <div class="d-flex">
-                <div class="card mx-3">
-                    <img src="img/top.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet
-                        </h5>
-                        <p class="card-text text-danger font-weight-bold">New</p>
-                        <a href="#" class="btn btn-primary mr-5">+</a>
-                        <a href="#" class="btn btn-primary ml-5">$200</a>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="img/top.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet
+                            </h5>
+                            <p class="card-text text-danger font-weight-bold">New</p>
+                            <a href="#" class="btn btn-primary first-button mr-4">+</a>
+                            <a href="#" class="btn btn-primary second-button ml-4">$200</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card mx-3">
-                    <img src="img/top.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet
-                        </h5>
-                        <p class="card-text text-danger font-weight-bold">New</p>
-                        <a href="#" class="btn btn-primary mr-5">+</a>
-                        <a href="#" class="btn btn-primary ml-5">$200</a>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="img/top.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet
+                            </h5>
+                            <p class="card-text text-danger font-weight-bold">New</p>
+                            <a href="#" class="btn btn-primary first-button mr-4">+</a>
+                            <a href="#" class="btn btn-primary second-button ml-4">$200</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card mx-3">
-                    <img src="img/top.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet
-                        </h5>
-                        <p class="card-text text-danger font-weight-bold">New</p>
-                        <a href="#" class="btn btn-primary mr-5">+</a>
-                        <a href="#" class="btn btn-primary ml-5">$200</a>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="img/top.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet
+                            </h5>
+                            <p class="card-text text-danger font-weight-bold">New</p>
+                            <a href="#" class="btn btn-primary first-button mr-4">+</a>
+                            <a href="#" class="btn btn-primary second-button ml-4">$200</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card mx-3">
-                    <img src="img/top.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet
-                        </h5>
-                        <p class="card-text text-danger font-weight-bold">New</p>
-                        <a href="#" class="btn btn-primary mr-5">+</a>
-                        <a href="#" class="btn btn-primary ml-5">$200</a>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="img/top.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet
+                            </h5>
+                            <p class="card-text text-danger font-weight-bold">New</p>
+                            <a href="#" class="btn btn-primary first-button mr-4">+</a>
+                            <a href="#" class="btn btn-primary second-button ml-4">$200</a>
+                        </div>
                     </div>
                 </div>
 
 
-
+            </div>
             </div>
 
         </section>
 
         <!-- Featured Products -->
         <section class="new-arrivals container mt-5">
-            <div class="section-header">
-                <h4 class="text-secondary  ml-3">Featured</h4>
-            </div>
-            <div class="d-flex">
-                <div class="card mx-3" style="width: 18rem;">
-                    <img src="img/WATCH.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet
-                        </h5>
-                        <p class="card-text text-danger font-weight-bold">New</p>
-                        <a href="#" class="btn btn-primary mr-5">+</a>
-                        <a href="#" class="btn btn-primary ml-5">$200</a>
-                    </div>
-                </div>
-                <div class="card mx-3" style="width: 18rem;">
-                    <img src="img/WATCH.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet
-                        </h5>
-                        <p class="card-text text-danger font-weight-bold">New</p>
-                        <a href="#" class="btn btn-primary mr-5">+</a>
-                        <a href="#" class="btn btn-primary ml-5">$200</a>
-                    </div>
-                </div>
-                <div class="card mx-3" style="width: 18rem;">
-                    <img src="img/WATCH.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet
-                        </h5>
-                        <p class="card-text text-danger font-weight-bold">New</p>
-                        <a href="#" class="btn btn-primary mr-5">+</a>
-                        <a href="#" class="btn btn-primary ml-5">$200</a>
-                    </div>
-                </div>
-                <div class="card mx-3" style="width: 18rem;">
-                    <img src="img/WATCH.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet
-                        </h5>
-                        <p class="card-text text-danger font-weight-bold">New</p>
-                        <a href="#" class="btn btn-primary mr-5">+</a>
-                        <a href="#" class="btn btn-primary ml-5">$200</a>
-                    </div>
-                </div>
+            <div class="section-header d-flex">
+                <h4 class="text-secondary  ml-3">Features</h4>
+                <p class="font-weight-bold view-all ml-auto mr-4"><a class="text-danger " href="#">View Products <i class="fa fa-chevron-right"></i></a></p>
 
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="img/WATCH.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet
+                            </h5>
+                            <p class="card-text text-danger font-weight-bold">New</p>
+                            <a href="#" class="btn btn-primary first-button mr-4">+</a>
+                            <a href="#" class="btn btn-primary second-button ml-4">$200</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="img/WATCH.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet
+                            </h5>
+                            <p class="card-text text-danger font-weight-bold">New</p>
+                            <a href="#" class="btn btn-primary first-button mr-4">+</a>
+                            <a href="#" class="btn btn-primary second-button ml-4">$200</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="img/WATCH.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet
+                            </h5>
+                            <p class="card-text text-danger font-weight-bold">New</p>
+                            <a href="#" class="btn btn-primary first-button mr-4">+</a>
+                            <a href="#" class="btn btn-primary second-button ml-4">$200</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="img/WATCH.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet
+                            </h5>
+                            <p class="card-text text-danger font-weight-bold">New</p>
+                            <a href="#" class="btn btn-primary first-button mr-4">+</a>
+                            <a href="#" class="btn btn-primary second-button ml-4">$200</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <!-- Footer -->
     <footer class="container mt-5">
-        <div class="d-flex">
-            <div class="footer-about">
+        <div class="d-flex footer">
+            <div class="footer-about d-sm-none d-md-block">
                 <img class="ml-2" src="img/logo-grey.png" alt="" width="200">
-                <p class="mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam reprehenderit repellendus assumenda
+                <p class="mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam reprehenderit
+                    repellendus assumenda
                     quia voluptatibus odit at earum expedita, ipsum distinctio maxime voluptas ea, praesentium commodi
                     cum totam quam quibusdam debitis
                 </p>
@@ -245,7 +270,7 @@
                 </ul>
             </div>
         </div>
-<hr>
+        <hr>
         <div class="footer-copyright d-flex ">
             <div class="copyright">
                 <p>&copy; 2020 Designed by Doyinsola Adeyemi, All right reserved</p>

@@ -5,19 +5,51 @@ body {
 nav {
   background-color: black;
   font-size: 20px;
+  display: flex;
+}
+
+nav img {
+  width: 170px;
+  margin: 10px 80px;
 }
 
 nav i {
   padding: 0 15px;
 }
 
-.navbar-nav {
-  margin-left: 30rem;
+.nav-center ul {
+  display: flex;
+}
+
+.nav-center li{
+  list-style: none;
 }
 
 .btn-danger {
   background-color: #df5a6f;
   border: none;
+}
+
+.all-products{
+  overflow: hidden;
+}
+
+.all-products img{
+width: 100%;
+}
+
+.all-products li {
+  list-style: none;
+  padding: 10px;
+}
+
+.all-products li a {
+  color: #333;
+}
+
+.category-list{
+  border-right: 0.5px solid #e4e4e4;
+  padding: 100px 0;
 }
 
 .cover-banner {
@@ -28,12 +60,40 @@ nav i {
   background-position: 80% 30%;
 }
 
+.result-banner{
+  background-image: url(./img/banner.jpg);
+  background-repeat: no-repeat;
+  min-height: 20vh;
+  background-size: 100%;
+  background-position: 100% 20%;
+}
+
+.result-banner img {
+  width: 120px;
+}
+
+.result-banner h1{
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.result-dropdown button {
+  padding: 15px 10px;
+}
+
 .logo-cover img {
   margin-top: 15rem;
   width: 15rem;
 }
 
-.logo-cover p {
+.more-products p {
+  border: 1px solid #999;
+  padding: 5px 10px;
+  margin: 0 10px;
+  background-color: white;
+}
+
+.logo-cover h1 {
   font-size: 24px;
   font-weight: 200;
 }
@@ -60,33 +120,181 @@ nav i {
   color: #db3a52;
 }
 
-.new-arrivals .btn-primary {
+.new-arrivals .second-button {
   background-color: #db3a52;
   border: none;
 }
 
 .new-arrivals .card {
-  width: 27rem;
+  width: 18rem;
 }
 
-footer ul li{
-    list-style: none;
+.new-arrivals .first-button {
+  background-color: #999;
+  border: none;
+}
+
+footer ul li {
+  list-style: none;
 }
 
 .footer-header {
-    color: #df5a6f;
+  color: #df5a6f;
 }
 
-footer li a {
-    color: #888;
+footer li a,
+.footer-about p {
+  color: #888;
 }
 
-.footer-about p{
-    line-height: 34px;
+.footer-about p {
+  line-height: 34px;
 }
 
-.social a{
-    font-size: 25px;
-    padding: 0 10px;
-    color: #888;
+.social a {
+  font-size: 25px;
+  padding: 0 10px;
+  color: #888;
+}
+
+/* Medium devices*/
+@media (min-width: 768px) and (max-width: 992px) {
+
+  .nav-right {
+    display: none;
+  }
+
+  nav img {
+    width: 140px;
+    margin: 10px 20px;
+  }
+
+  .nav-button {
+    display: none;
+  }
+
+  .cover-banner {
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    min-height: 30vh;
+  }
+
+  .logo-cover img {
+    margin-top: 5rem;
+    width: 15rem;
+  }
+
+  .hot-ads img {
+    width: 210px;
+    padding-right: 20px;
+  }
+
+  .all-products img{
+    width: 100%;
+    height: 70%;
+  }
+
+  .result-dropdown button {
+    padding: 5px 10px;
+  }
+
+  .search-result{
+    text-align: center;
+  }
+
+  .category-list{
+    display: none;
+  }
+
+  .footer-header hr {
+    display: none;
+  }
+
+  .footer-about {
+    text-align: center;
+  }
+}
+
+/* Small devices (landscape phones, 576px) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+  .nav-right {
+    display: none;
+  }
+
+  nav {
+    font-size: 14px;
+  }
+
+  .nav-button {
+    display: none;
+  }
+
+  nav img {
+    width: 100px;
+    margin: 20px 10px 0;
+  }
+
+  nav i {
+    padding: 0 5px;
+  }
+
+  .new-arrivals .card {
+    width: 15rem;
+    margin: 15px 0;
+  }
+
+  .new-arrivals .card img {
+    width: 200px;
+  }
+
+  .cover-banner {
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    min-height: 10%;
+    background-size: 100%;
+    background-position: 90% 90%;
+  }
+
+  .logo-cover p {
+    font-size: 18px;
+  }
+
+  .logo-cover img {
+    margin-top: 10rem;
+    width: 10rem;
+  }
+
+  .result-dropdown button {
+    padding: 5px 10px;
+  }
+
+  .search-result{
+    text-align: center;
+  }
+
+  .category-list{
+    display: none;
+  }
+
+  .cover-banner .search {
+    margin: 10px 0;
+  }
+
+  .footer-header hr {
+    display: none;
+  }
+
+  .footer-about {
+    display: none;
+  }
+
+  .social a {
+    font-size: 18px;
+    padding: 0 3px;
+  }
+
+  .copyright {
+    font-size: 13px;
+  }
 }

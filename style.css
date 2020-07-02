@@ -1,0 +1,92 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  background-color: black;
+  font-size: 20px;
+}
+
+nav i {
+  padding: 0 15px;
+}
+
+.navbar-nav {
+  margin-left: 30rem;
+}
+
+.btn-danger {
+  background-color: #df5a6f;
+  border: none;
+}
+
+.cover-banner {
+  background-image: url(./img/banner.jpg);
+  background-repeat: no-repeat;
+  min-height: 60vh;
+  background-size: 100%;
+  background-position: 80% 30%;
+}
+
+.logo-cover img {
+  margin-top: 15rem;
+  width: 15rem;
+}
+
+.logo-cover p {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.dropdown .search {
+  margin-left: 0.5rem;
+}
+
+.hot-ads img {
+  width: 100%;
+}
+
+.hot-deal-card {
+  border: none;
+  max-width: 100%;
+}
+
+.hot-ads button {
+  background-color: #d35266;
+  border: none;
+}
+
+.hot-ads h5 {
+  color: #db3a52;
+}
+
+.new-arrivals .btn-primary {
+  background-color: #db3a52;
+  border: none;
+}
+
+.new-arrivals .card {
+  width: 27rem;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+.footer-header {
+    color: #df5a6f;
+}
+
+footer li a {
+    color: #888;
+}
+
+.footer-about p{
+    line-height: 34px;
+}
+
+.social a{
+    font-size: 25px;
+    padding: 0 10px;
+    color: #888;
+}

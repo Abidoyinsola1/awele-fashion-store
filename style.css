@@ -78,7 +78,6 @@ footer li a,
   background-repeat: no-repeat;
   min-height: 60vh;
   background-size: 100%;
-  background-position: 80% 30%;
 }
 
 .result-banner {
@@ -244,8 +243,8 @@ footer li a,
   }
 
   .logo-cover img {
-    margin-top: 10rem;
-    width: 10rem;
+    margin-top: 2rem;
+    width: 20rem;
   }
 
   .new-arrivals .card img {
@@ -255,9 +254,8 @@ footer li a,
   .cover-banner {
     background-image: url(./img/banner.jpg);
     background-repeat: no-repeat;
-    min-height: 10%;
+    min-height: 30%;
     background-size: 100%;
-    background-position: 90% 90%;
   }
 
   .logo-cover p {

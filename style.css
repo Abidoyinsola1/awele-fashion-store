@@ -1,4 +1,6 @@
 body {
+  max-width: 1500px;
+  margin: auto;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -36,6 +38,11 @@ footer ul li {
 
 .all-products {
   overflow: hidden;
+}
+
+.all-products h4{
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .all-products img {

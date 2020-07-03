@@ -98,8 +98,10 @@ width: 100%;
   font-weight: 200;
 }
 
-.dropdown .search {
+.dropdown a {
   margin-left: 0.5rem;
+  color: white;
+  text-decoration: none;
 }
 
 .hot-ads img {

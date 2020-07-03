@@ -2,6 +2,7 @@
 
 # Capstone Project
 PROJECT: Awele E-commerce Website
+Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
 
 ![screenshot](./img/Screenshot.JPG)
 

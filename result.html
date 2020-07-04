@@ -18,63 +18,74 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-left mt-2">
-            <a href="#"><img src="img/logo.png" alt=""></a>
-        </div>
-        <div class="nav-center mt-3">
-            <ul class="">
-                <li class="">
-                    <a class="nav-link text-white px-4 pt-3" href="#"><i class="fa fa-home"></i> Home</a>
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Awele Logo"></a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="index.html"><i class="fa fa-home"></i> Home<span
+                            class="sr-only">(current)</span></a>
                 </li>
-                <li class="">
-                    <a class="nav-link text-white px-4 pt-3" href="#"><i class="fa fa-bars"></i> Collection</a>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#"><i class="fa fa-bars"></i> Collection</a>
                 </li>
-                <li class="">
-                    <a class="nav-link text-white px-4 pt-3" href="#"><i class="fa fa-cart-plus"></i> Purchase List</a>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#"><i class="fa fa-cart-plus"></i> Purchase List</a>
                 </li>
-                <li class="nav-link nav-button text-white px-3 py-2">
+                <li class="ml-3">
                     <button type="button" class="btn btn-danger">POST AN AD</button>
                 </li>
             </ul>
-        </div>
-        <div class="nav-right ml-auto mt-4">
-            <i class="fa fa-envelope text-white px-2"></i>
-            <span class="text-white px-4">Doyinsola Adeyemi <i class="fa fa-user-circle"></i></span>
+            <div class="nav-right ml-auto">
+                <i class="fa fa-envelope text-white px-2"></i>
+                <span class="text-white px-4">Doyinsola Adeyemi <i class="fa fa-user-circle"></i></span>
+            </div>
         </div>
     </nav>
 
     <main class="bg-light">
-    <div class="result-banner">
-        <div class="pt-5 pl-5">
-            <img src="img/logo-name.png" alt="Awele" />
-            <h1 class="text-white pt-3">
-                Search around 200,000 items waiting to be sold!
-            </h1>
+        <div class="cover-banner">
+            <div class="container">
+                <div class="logo-cover">
+                    <img src="img/logo-name.png" alt="Awele" />
+                    <h1 class="text-white pt-2">
+                        Your one-stop store for all your fashion needs
+                    </h1>
+                </div>
+                <div class="dropdown pb-3 text-center">
+                    <button class="btn btn-secondary bg-white text-secondary dropdown-toggle" type="button"
+                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Make Up Products
+                    </button>
+                    <button class="btn btn-secondary bg-white text-secondary">
+                        Foundation
+                    </button>
+                    <button class="btn btn-secondary bg-white text-secondary">Women</button>
+                    <form class=" mt-2" action="result.html"><button
+                            class="btn btn-secondary search pt-2">Search</button></form>
+                </div>
+            </div>
         </div>
-        <div class="result-dropdown pl-5">
-            <button class="btn btn-secondary bg-white text-secondary dropdown-toggle" type="button"
-                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Make Up Products
-            </button>
-            <button class="btn btn-secondary bg-white text-secondary">
-                Foundation
-            </button>
-            <button class="btn btn-secondary bg-white text-secondary">Women</button>
-            <button class="btn btn-secondary search">Search</button>
-        </div>
-    </div>
 
         <section class="all-products pb-3">
             <div class="row">
                 <div class="col-2 category-list">
                     <h4 class="text-muted pl-5">Categories</h4>
                     <ul>
-                        <li><a href="#">Tops</a></li>
-                        <li><a href="#">Pants</a></li>
-                        <li><a href="#">Assessories</a></li>
-                        <li><a href="#">Make Up</a></li>
-                        <li><a href="#">Dress</a></li>
+                        <li><input type="checkbox" name="tops" id="tops" value="top">
+                            <label for="tops"><a href="#">Tops</a></label></li>
+                        <li><input type="checkbox" name="tops" id="pants" value="top">
+                            <label for="pants"><a href="#">Pants</a></label></li>
+                        <li><input type="checkbox" name="tops" id="assessories" value="top">
+                            <label for="assessories"><a href="#">Assessories</a></label></li>
+                        <li><input type="checkbox" name="tops" value="top" id="make-up" checked>
+                            <label for="make-up"><a href="#">Make Up</a></label></li>
+                        <li><input type="checkbox" name="tops" id="dress" value="top">
+                            <label for="dress"><a href="#">Dress</a></label></li>
                     </ul>
                 </div>
                 <div class="col ">
@@ -184,19 +195,18 @@
         </section>
     </main>
     <footer class="container mt-5">
-        <div class="d-flex footer">
-            <div class="footer-about d-sm-none d-md-block">
+        <div class="row footer">
+            <div class="col-lg-3 col-md-12 footer-about">
                 <img class="ml-2" src="img/logo-grey.png" alt="" width="200">
-                <p class="mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam reprehenderit
-                    repellendus assumenda quia voluptatibus odit at earum expedita.
-                </p>
+                <p class="mt-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam fugit itaque, non
+                    architecto, vero molestiae, possimus fuga tempore nemo illo ratione. Sint soluta sequi numquam quo
+                    modi fugiat iusto quia!</p>
             </div>
-            <div class="contact">
+            <div class="col-lg-3 col-md-4 contact">
                 <div class="footer-header">
                     <h6 class="ml-4 px-3">Categories</h6>
                     <hr>
                 </div>
-
                 <ul>
                     <li><a href="#">Tops</a></li>
                     <li><a href="#">Pants</a></li>
@@ -205,7 +215,7 @@
                     <li><a href="#">Dress</a></li>
                 </ul>
             </div>
-            <div class="contact">
+            <div class="col-lg-3 col-md-4 contact">
                 <div class="footer-header">
                     <h6 class="ml-4 px-3">Navigation</h6>
                     <hr>
@@ -219,7 +229,7 @@
                     <li><a href="#">Help</a></li>
                 </ul>
             </div>
-            <div class="contact">
+            <div class="col-lg-3 col-md-4 contact">
                 <div class="footer-header">
                     <h6 class="ml-4 px-3">Contact</h6>
                     <hr>
@@ -232,11 +242,11 @@
             </div>
         </div>
         <hr>
-        <div class="footer-copyright d-flex ">
+        <div class="footer-copyright d-flex justify-content-center">
             <div class="copyright">
                 <p>&copy; 2020 Designed by Doyinsola Adeyemi, All right reserved</p>
             </div>
-            <div class="social ml-auto">
+            <div class="social">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"> <i class="fa fa-twitter"></i></a>
                 <a href="#"> <i class="fa fa-instagram"></i></a>

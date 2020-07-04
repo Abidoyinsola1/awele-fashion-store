@@ -6,13 +6,13 @@ body {
 
 nav {
   background-color: black;
-  font-size: 16px;
+  font-size: 14px;
   display: flex;
 }
 
 nav img {
   width: 170px;
-  margin: 10px 80px;
+  margin: 0 40px;
 }
 
 nav i {
@@ -32,7 +32,7 @@ footer ul li {
 }
 
 .btn-danger {
-  background-color: #df5a6f;
+  background-color: #d35266;
   border: none;
 }
 
@@ -41,7 +41,7 @@ footer ul li {
 }
 
 .all-products h4 {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
 }
 
@@ -66,7 +66,7 @@ footer li a,
 }
 
 .social a {
-  font-size: 25px;
+  font-size: 20px;
   padding: 0 10px;
   color: #888;
 }
@@ -83,7 +83,6 @@ footer li a,
 .cover-banner {
   background-image: url(./img/banner.jpg);
   background-repeat: no-repeat;
-  min-height: 60vh;
   background-size: 100%;
 }
 
@@ -110,8 +109,8 @@ footer li a,
 }
 
 .logo-cover img {
-  margin-top: 15rem;
-  width: 15rem;
+  margin-top: 10rem;
+  width: 17rem;
 }
 
 .more-products p {
@@ -145,7 +144,7 @@ footer li a,
 }
 
 .new-arrivals .second-button {
-  background-color: #db3a52;
+  background-color: #d35266;
   border: none;
 }
 
@@ -159,12 +158,20 @@ footer li a,
   border: none;
 }
 
+.copyright{
+  font-size: 14px;
+}
+
 .footer-header {
-  color: #df5a6f;
+  color: #d35266;
 }
 
 .footer-about p {
   line-height: 34px;
+}
+
+.footer-copyright{
+  display: flex;
 }
 
 @media (min-width: 991px) and (max-width: 1200px) {
@@ -224,8 +231,48 @@ footer li a,
   .category-list {
     display: none;
   }
+}
 
-  .footer-header hr {
+@media (min-width: 375px) and (max-width: 767px) {
+  nav img {
+    width: 140px;
+    margin: 0 -10px;
+  }
+  
+  .logo-cover img {
+    margin-top: 1rem;
+    width: 6rem;
+  }
+
+  .logo-cover h1{
+    font-size: 12px;
+  }
+
+  .cover-banner button{
+    font-size: 10px;
+  }
+
+  .view-all{
+    font-size: 10px;
+  }
+
+  .section-header h4{
+    font-size: 16px;
+  }
+
+  .new-arrivals .card{
+    margin-left: 50px;
+  }
+
+  .category-list {
     display: none;
+  }
+
+  .search-result{
+    margin-left: 15px;
+  }
+
+  .card-img{
+    margin-left: 13px;
   }
 }

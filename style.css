@@ -109,8 +109,8 @@ footer li a,
 }
 
 .logo-cover img {
-  margin-top: 10rem;
-  width: 17rem;
+  margin-top: 5rem;
+  width: 15rem;
 }
 
 .more-products p {
@@ -121,7 +121,7 @@ footer li a,
 }
 
 .logo-cover h1 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 200;
 }
 
@@ -233,7 +233,7 @@ footer li a,
   }
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 300px) and (max-width: 767px) {
   nav img {
     width: 140px;
     margin: 0 -10px;
@@ -261,7 +261,7 @@ footer li a,
   }
 
   .new-arrivals .card {
-    margin-left: 50px;
+    margin-left: 55px;
   }
 
   .category-list {

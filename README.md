@@ -24,7 +24,7 @@ The second is the page that displays the result of the information searched for 
 - CSS3
 - Bootstrap
 
-[Live Demo Link to Home Page](https://raw.githack.com/Abidoyinsola1/awele-fashion-store/feature-branch/index.html)
+[Live Demo Link to Home Page](https://rawcdn.githack.com/Abidoyinsola1/awele-fashion-store/f07c9a288750f5290194661ad59d2785086caf91/index.html)
 
 [Live Demo Link to Result Page](https://raw.githack.com/Abidoyinsola1/awele-fashion-store/feature-branch/result.html)
 

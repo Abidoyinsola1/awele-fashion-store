@@ -26,7 +26,7 @@ The second is the page that displays the result of the information searched for 
 
 [Live Demo Link to Home Page](https://raw.githack.com/Abidoyinsola1/awele-fashion-store/feature-branch/index.html)
 
-[Live Demo Link to Result Page](https://raw.githack.com/Abidoyinsola1/awele-fashion-store/feature-branch/index.html)
+[Live Demo Link to Result Page](https://raw.githack.com/Abidoyinsola1/awele-fashion-store/feature-branch/result.html)
 
 
 ## Getting Started
@@ -39,8 +39,16 @@ $ cd <folder>
 
 ```
 $ git clone git@github.com:Abidoyinsola1/awele-fashion-store.git
+```
 
 ```
+$ cd to move into the downloaded folder
+```
+
+```
+drag and drop the index file into the browser
+```
+
 
 ## Author
 

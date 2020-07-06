@@ -13,9 +13,6 @@ The project has two pages. The first is the home page that has the various categ
 
 The second is the page that displays the result of the information searched for on the homepage. Once the "search" link has been pressed, it leads to the search page.
 
-Here is a short [video](https://www.loom.com/share/19f2680b9fd34462aaa434f1506728ac) on the project
-
-
 ![screenshot](./img/Screenshot.JPG)
 
 **An e-commerce website built for Awele Fashion Store**
